@@ -16,7 +16,7 @@ function Paginainicial() {
             <main>
                 <section className={styles.principal}>
                     <Menu />
-                    <div className={styles.banner}>
+                    <div className={styles.principal__imagem}>
                         <h1 className={styles.banner__titulo}>A galeria mais completa do espeço </h1>
                         <img src={banner} className={styles.banner__imagem} alt="A imagem da terra vista do espaço" />
                     </div>

@@ -1,29 +1,41 @@
 @import "../../styles/variaveis";
 
-.principal{
-    margin: .7rem;
-}
-.banner{
-    display: block;
-    margin-top: -250px;
-    text-align: center;
-    margin-left: 150px;
-}
-.banner__titulo{
-    display: block;
-    text-align: center;
-    font-family: "GandhiSansBold";
-    font-size: 40px;
-    color: $cor-do-texto;
-    position: absolute;
-    margin-left: 250px;
-    margin-top: 140px;
-}
-
 .galeria {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 17%;
     margin-top: 1rem;
+  }
+
+  main {
+    margin: 0 24px;
+  }
+  
+  .principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+  
+    &__imagem {
+      width: 88%;
+      .banner__imagem {
+        width: 100%;
+        height: 288px;
+      }
+  
+      position: relative;
+  
+      .banner__titulo {
+        position: absolute;
+        z-index: 1;
+        color: #d9d9d9;
+        font-size: 2.5rem;
+        width: 401px;
+        height: 144px;
+        top: 75px;
+        left: 44px;
+      }
+    }
   }
