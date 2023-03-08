@@ -1,0 +1,26 @@
+@import "../../styles/variaveis";
+
+.rodape{
+    display: flex;
+    position: relative;
+    margin-top: 240px;
+    
+}
+.rodape__div{
+    display: block;
+    position: absolute;
+    background: $azul-rodape;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+    text-align: start;
+}
+.rodape__link{
+   justify-content: space-around;
+   padding: 8px;
+   align-items: center;
+  
+}
+.rodape__imagem{
+    margin-top: 10px;
+}

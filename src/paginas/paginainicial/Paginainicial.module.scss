@@ -1,0 +1,29 @@
+@import "../../styles/variaveis";
+
+.principal{
+    margin: .7rem;
+}
+.banner{
+    display: block;
+    margin-top: -250px;
+    text-align: center;
+    margin-left: 150px;
+}
+.banner__titulo{
+    display: block;
+    text-align: center;
+    font-family: "GandhiSansBold";
+    font-size: 40px;
+    color: $cor-do-texto;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 140px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 17%;
+    margin-top: 1rem;
+  }
