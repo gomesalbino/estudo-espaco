@@ -6,7 +6,7 @@ function Cabecalho() {
     return ( 
         <section>
             <header className={styles.cabecalho}>
-               <img src={logo} alt="Logo de espaço" />
+               <img src={logo} className={styles.logo} alt="Logo de espaço" />
                <div className={styles.cabecalho__container}>
                 <input className={styles.cabecalho__input} type="search"
                 placeholder="O que vc procura? ...." />
