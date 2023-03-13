@@ -78,6 +78,9 @@
         width: 100%;
         
       }
+      .banner__imagem{
+        width: 100%;
+      }
       .principal__imagem{
         width: 500px;
         margin-right: 10px;
@@ -92,6 +95,9 @@
         width: 500px;
         
       }
+      .banner__imagem{
+        width: 100%;
+      }
       .banner__titulo{
         font-size: 40px;
       }
@@ -104,6 +110,9 @@
       .banner__titulo{
         font-size: 45px;
       }
+      .banner__imagem{
+        width: 100%;
+      }
     }
     @media screen and (max-width: 1280px){
       .principal__imagem{
@@ -112,6 +121,9 @@
       }
       .banner__titulo{
         font-size: 45px;
+      }
+      .banner__imagem{
+        width: 100%;
       }
     }
   }
