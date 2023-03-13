@@ -48,8 +48,11 @@
         margin-right: 20px;
         margin-left: 20px;
       }
+      .banner__imagem{
+        width: 500px;
+      }
       .banner__titulo{
-        font-size: 17px;
+        font-size: 18px;
       }
     }
     @media screen and (max-width: 768px){
@@ -57,13 +60,17 @@
         width: 100%;
         
       }
-      .principal__imagem{
+      .banner__imagem{
         width: 500px;
+      }
+      .principal__imagem{
+        width: 700px;
         margin-right: 20px;
-        margin-left: 50px;
+        margin-left: 70px;
       }
       .banner__titulo{
-        font-size: 17px;
+        font-size: 100px;
+
       }
     }
     @media screen and (min-width: 769px){
